@@ -1,5 +1,5 @@
 
-Change_Detection --- Multi_task_u-net --- GT(MD) -------- Original(MD) /
+Change_Detection --- Multi_task_u-net --- GT(MD) -------- Original(MD)  
                                        |
                                        -- Image_all ----- Annotation(MD) ---- t0(MD)
                                        |              |                    |
