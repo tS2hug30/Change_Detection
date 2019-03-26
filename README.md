@@ -56,6 +56,7 @@ Data augmentationの有無の確認をお願いします．
 > python test.py '<Your Trained Model>' '<閾値処理の値(0~255)>'  
 
 下記の引数を与えることができます.
+* aaa
 
 
 
