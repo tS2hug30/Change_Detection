@@ -1,38 +1,38 @@
 
-Change_Detection --- Multi_task_u-net --- GT -------- Original
+Change_Detection --- Multi_task_u-net --- GT ------------ Original
                                        |
                                        -- Image_all ----- Annotation ---- t0
-                                       |              |                    |
-                                       |              |                    -- t1
+                                       |              |                |
+                                       |              |                -- t1
                                        |              |
                                        |              --- Gray_ano ------ t0
-                                       |              |                    |
-                                       |              |                    -- t1
+                                       |              |                |
+                                       |              |                -- t1
                                        |              |
                                        |              --- gray.py
                                        |              |
                                        |              --- Original ------ t0
-                                       |              |                    |
-                                       |              |                    -- t1
+                                       |              |                |
+                                       |              |                -- t1
                                        |              |
                                        |              --- Test ---------- t0 --- Annotation
-                                       |                                   |          |
-                                       |                                   |          -- ORIGINAL
-                                       |                                   |
-                                       |                                   |- t1 --- Annotation
-                                       |                                              |
-                                       |                                              -- ORIGINAL
+                                       |                               |      |
+                                       |                               |      -- ORIGINAL
+                                       |                               |
+                                       |                               |- t1 --- Annotation
+                                       |                                      |
+                                       |                                      -- ORIGINAL
                                        |                 
                                        -- unet ----------- *.py
                                                       |
                                                       --- feat_visual --- 0 ~ 10
-                                                      |                    |
-                                                      |                    -- threshold
+                                                      |                |
+                                                      |                -- threshold
                                                       |
                                                       --- OUTPUT -------- image0,1
-                                                      |                    |
-                                                      |                    -- result0,1
-                                                      |                    |
-                                                      |                    -- true
+                                                      |                |
+                                                      |                -- result0,1
+                                                      |                |
+                                                      |                -- true
                                                       |
                                                       --- TRAIN
