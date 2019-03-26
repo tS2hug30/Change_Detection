@@ -179,7 +179,6 @@ def test(label_colours):
 
         # Segmentation(before)
         cv2.imwrite("./OUTPUT/result0/" + filename + ".png", rgb)
-        cv2.imwrite("./OUTPUT/true/" + filename + ".png", rgb_gt)
         image = np.squeeze(image0[0,:,:,:])
         image = (image.swapaxes(0, 2)).swapaxes(0, 1)
         cv2.imwrite("./OUTPUT/image0/" + filename + ".png", image)
