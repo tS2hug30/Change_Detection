@@ -51,7 +51,9 @@ Data augmentationの有無の確認をお願いします．
 > python train.py
 
 もし，学習が止まってしまった場合，以下のコメントアウトを外し，再実行してください．
-> serializers.load_npz('./TRAIN/'+ '96000.model', model)
+> serializers.load_npz('./TRAIN/' + '<モデル名>', model)  
+> serializers.load_npz('./TRAIN/' + '<state名>', optimizer)  
+> iteration = iteration + <モデル名>
 
 #### 5. テスト
 テストを行う前に，あらかじめ，入力画像サイズ，使用するGPU番号の確認をお願いします．  
