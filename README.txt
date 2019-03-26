@@ -1,38 +1,39 @@
+#構成
 
-Change_Detection --- Multi_task_u-net --- GT(MD) -------- Original(MD)
+Change_Detection --- Multi_task_u-net --- GT ------------ Original
                                        |
-                                       -- Image_all ----- Annotation(MD) ---- t0(MD)
-                                       |              |                    |
-                                       |              |                    -- t1(MD)
+                                       -- Image_all ----- Annotation ---- t0
+                                       |              |                |
+                                       |              |                -- t1
                                        |              |
-                                       |              --- Gray_ano(MD) ------ t0(MD)
-                                       |              |                    |
-                                       |              |                    -- t1(MD)
+                                       |              --- Gray_ano ------ t0
+                                       |              |                |
+                                       |              |                -- t1
                                        |              |
                                        |              --- gray.py
                                        |              |
-                                       |              --- Original(MD) ------ t0(MD)
-                                       |              |                    |
-                                       |              |                    -- t1(MD)
+                                       |              --- Original ------ t0
+                                       |              |                |
+                                       |              |                -- t1
                                        |              |
-                                       |              --- Test(MD) ---------- t0(MD) --- Annotation(MD)
-                                       |                                   |          |
-                                       |                                   |          -- ORIGINAL(MD)
-                                       |                                   |
-                                       |                                   |- t1(MD) --- Annotation(MD)
-                                       |                                              |
-                                       |                                              -- ORIGINAL (MD)
+                                       |              --- Test ---------- t0 --- Annotation
+                                       |                               |      |
+                                       |                               |      -- ORIGINAL
+                                       |                               |
+                                       |                               |- t1 --- Annotation
+                                       |                                      |
+                                       |                                      -- ORIGINAL
                                        |                 
                                        -- unet ----------- *.py
                                                       |
-                                                      --- feat_visual(MD) --- 0 ~ 10(MD)
-                                                      |                    |
-                                                      |                    -- threshold(MD)
+                                                      --- feat_visual --- 0 ~ 10
+                                                      |                |
+                                                      |                -- threshold
                                                       |
-                                                      --- OUTPUT(MD) -------- image0,1(MD)
-                                                      |                    |
-                                                      |                    -- result0,1(MD)
-                                                      |                    |
-                                                      |                    -- true(MD)
+                                                      --- OUTPUT -------- image0,1
+                                                      |                |
+                                                      |                -- result0,1
+                                                      |                |
+                                                      |                -- true
                                                       |
-                                                      --- TRAIN(MD)
+                                                      --- TRAIN
