@@ -15,6 +15,10 @@ Multi-tusk U-netを用いた変化点検出のソースコード
   - gray.py (ラベル画像を学習用に変換)
   
 - unet
+  - *.py (各プログラム)
+  - feat_visual
+  - OUTPUT
+  - TRAIN
 
 
 
