@@ -1,2 +1,2 @@
 # Change Detection
-変化点検出のソースコード
+Multi-tusk U-netを用いた変化点検出のソースコード
