@@ -23,6 +23,8 @@ Multi-tusk U-netを用いた変化点検出のソースコード
     - セグメンテーション結果の保存先："result0","result1"フォルダを**あらかじめ**作成する必要あり
   - TRAIN (モデル保存先フォルダ)
 
+## Requirement
+随時更新
 
 
 ## Usage
