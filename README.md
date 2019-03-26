@@ -53,7 +53,7 @@ Data augmentationの有無の確認をお願いします．
 もし，学習が止まってしまった場合，以下のコメントアウトを外し，再実行してください．
 > serializers.load_npz('./TRAIN/' + '<モデル名>', model)  
 > serializers.load_npz('./TRAIN/' + '<state名>', optimizer)  
-> iteration = iteration + <モデル名>
+> iteration = iteration + <モデル名，state名の拡張子前の数値>
 
 #### 5. テスト
 テストを行う前に，あらかじめ，入力画像サイズ，使用するGPU番号の確認をお願いします．  
