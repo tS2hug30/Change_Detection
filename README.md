@@ -16,9 +16,9 @@ Multi-tusk U-netを用いた変化点検出のソースコード
   
 - unet
   - *.py (各プログラム)
-  - feat_visual
-  - OUTPUT
-  - TRAIN
+  - feat_visual (変化点検出タスクにおける出力結果保存先フォルダ)
+  - OUTPUT (セグメンテーションタスクにおける出力結果保存先フォルダ)
+  - TRAIN (モデル保存先フォルダ)
 
 
 
