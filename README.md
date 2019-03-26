@@ -33,4 +33,4 @@ Multi-tusk U-netを用いた変化点検出のソースコード
 #### 1. ラベル画像を学習用に変換
 "Annotation"フォルダ内の変化前と変化後に分けられたフォルダ("t0","t1")に画像を入れておきます．  
 `gray.py`に引数`t0`もしくは`t1`を与えて実行します．
-    python gray.py
+> python gray.py
