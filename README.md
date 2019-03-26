@@ -8,6 +8,11 @@ Multi-tusk U-netを用いた変化点検出のソースコード
   - unet (プログラム，出力結果用フォルダ)
   
 #### Image_all
+- Annotation
+- Gray_ano
+- Original
+- Test
+- gray.py
 
 
 
