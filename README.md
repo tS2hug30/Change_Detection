@@ -48,6 +48,10 @@ Multi-tusk U-netを用いた変化点検出のソースコード
 #### 4. 学習
 `gray.py`を実行してください．学習を行う前に，あらかじめ，BATCH_SIZE，入力画像サイズ，使用するGPU番号，  
 Data augmentationの有無の確認をお願いします．
+> python train.py
+
+#### 5. テスト
+
 
 
 
