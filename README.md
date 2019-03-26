@@ -8,11 +8,11 @@ Multi-tusk U-netを用いた変化点検出のソースコード
   - unet (プログラム，出力結果用フォルダ)
   
 - Image_all
-  - Annotation
-  - Gray_ano
-  - Original
-  - Test
-  - gray.py
+  - Annotation (学習時におけるセグメンテーションのラベル画像用フォルダ)
+  - Gray_ano (gray.pyの出力結果保存先フォルダ)
+  - Original (学習時における入力画像用フォルダ)
+  - Test (テスト時における入力画像，ラベル画像用フォルダ)
+  - gray.py (ラベル画像を学習用に変換)
 
 
 
