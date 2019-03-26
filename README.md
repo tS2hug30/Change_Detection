@@ -2,10 +2,10 @@
 Multi-tusk U-netを用いた変化点検出のソースコード
 
 ## Constitution
-- Multi_task_u-net
-  - GT (ground truth用フォルダ)
-  - Image_all (入力画像，ラベル画像用フォルダ)
-  - unet (プログラム，出力結果用フォルダ)
+* Multi_task_u-net
+  * GT (ground truth用フォルダ)
+  * Image_all (入力画像，ラベル画像用フォルダ)
+  * unet (プログラム，出力結果用フォルダ)
   
 - Image_all
   - Annotation (学習時におけるセグメンテーションのラベル画像用フォルダ)
@@ -53,7 +53,7 @@ Data augmentationの有無の確認をお願いします．
 #### 5. テスト
 テストを行う前に，あらかじめ，入力画像サイズ，使用するGPU番号の確認をお願いします．  
 `test.py`に引数を与えて実行します．
-> python test.py '<Your Trained Model>' '<閾値処理の値(0~255)>'  
+> python test.py '<モデル名>' '<閾値処理の値(0~255)>'  
 
 下記の引数を与えることができます.
 * aaa
