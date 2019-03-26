@@ -24,7 +24,11 @@ Multi-tusk U-netを用いた変化点検出のソースコード
   * TRAIN (モデル保存先フォルダ)
 
 ## Requirement
-随時更新
+* python 2.x
+* cuda 8.0
+* chainer 5.x
+* OpenCV 3.x
+* numpy
 
 
 ## Usage
