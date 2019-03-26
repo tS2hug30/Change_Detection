@@ -2,9 +2,9 @@
 Multi-tusk U-netを用いた変化点検出のソースコード
 
 ## Constitution
-Change_Detection
-      |
-      -- Multi_task_u-net
+Change_Detection  
+|  
+-- Multi_task_u-net  
               |
               -- GT/Original
               |
