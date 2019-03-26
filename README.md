@@ -7,12 +7,12 @@ Multi-tusk U-netを用いた変化点検出のソースコード
   - Image_all (入力画像，ラベル画像用フォルダ)
   - unet (プログラム，出力結果用フォルダ)
   
-#### Image_all
-- Annotation
-- Gray_ano
-- Original
-- Test
-- gray.py
+- Image_all
+  - Annotation
+  - Gray_ano
+  - Original
+  - Test
+  - gray.py
 
 
 
