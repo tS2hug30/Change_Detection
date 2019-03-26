@@ -28,7 +28,6 @@ Multi-tusk U-netを用いた変化点検出のソースコード
 * cuda 8.0
 * chainer 5.x
 * OpenCV 3.x
-* numpy
 
 
 ## Usage
