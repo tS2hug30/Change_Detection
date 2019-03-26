@@ -35,3 +35,5 @@ Multi-tusk U-netを用いた変化点検出のソースコード
 `gray.py`に引数`t0`もしくは`t1`を与えて実行します．出力結果は，"Gray_ano"フォルダに保存されます．
 > python gray.py t0  
 > python gray.py t1
+
+#### 2. 
